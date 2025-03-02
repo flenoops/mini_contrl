@@ -1,0 +1,6 @@
+@media screen and (max-width: 515px) {
+   .footer_top {
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+   }
+}

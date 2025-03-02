@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 600px) {
+  .header {
+    &_top {
+      display: none;
+    }
+    &_mobile--menu {
+      display: flex;
+      justify-content: end;
+      margin-bottom: 20px;
+    }
+    }
+  }
+@media screen and (max-width: 560px) {
+  .header {
+     &_bottom--title {
+      font-size: 30px;
+     }
+    }
+  }
